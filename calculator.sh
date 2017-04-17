@@ -25,9 +25,9 @@ case $ch in
     echo "sum="$sum;;
    2)sum=`expr $num1 \* $num2`
     echo "Multiplication="$sum;; 
-   3)sum=`expr $num1 / $num2`
+   3)sum=`expr $num1 / $num`
     echo "Division="$sum;;
-   4)sum=`expr $num1 - $num2`
+   4)sum=`expr $num1 - $num`
    echo "Subtraction="$sum;;
    *)echo "invalid choice";;
    esac
