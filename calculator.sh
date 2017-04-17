@@ -21,13 +21,13 @@ echo
 echo "4.subtraction"
 read ch
 case $ch in
-   1)sum=`expr $num1 + $num2`
+   1)sum=`expr $num1 + $num2` ##addition
     echo "sum="$sum;;
-   2)sum=`expr $num1 \* $num2`
-    echo "Multiplication="$sum;; 
-   3)sum=`expr $num1 / $num`
+   2)sum=`expr $num1 \* $num2`##multiplication
+    echo "Multiplication="$sum;;
+   3)sum=`expr $num1 / $num2` ##division
     echo "Division="$sum;;
-   4)sum=`expr $num1 - $num`
+   4)sum=`expr $num1 - $num2` ##subtraction
    echo "Subtraction="$sum;;
    *)echo "invalid choice";;
    esac
